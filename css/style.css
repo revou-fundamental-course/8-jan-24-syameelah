@@ -1,0 +1,61 @@
+body {
+    display:flex;
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; /* Warna biru muda untuk latar belakang */
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.calculator {
+    width: 200px;
+    height: 250px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.container {
+    background-color: #fff; /* Warna putih untuk kotak kalkulator */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #4169e1; /* Warna biru Royal */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #4169e1; /* Warna biru Royal */
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4169e1; /* Warna biru Royal */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3558a8; /* Warna biru sedikit lebih gelap saat hover */
+}
+
+#result {
+    font-weight: bold;
+    color: #4169e1; /* Warna biru Royal */
+}
